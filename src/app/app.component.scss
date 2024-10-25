@@ -1,0 +1,71 @@
+.turing-machine {
+  max-width: 600px;
+  margin: 20px auto;
+  text-align: center;
+  background-color: #fff;
+  padding: 10% 5%;
+}
+
+.input-area {
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+input {
+  padding-block: 20px;
+  border-radius: 5px;
+  font-size: 20px;
+  text-align: center;
+  margin-bottom: 20px;
+  background-color: #ccc;
+  border: none;
+}
+
+.btn-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.btn-step {
+  width: 150px;
+  margin-bottom: 5px;
+  background-color: cornflowerblue;
+}
+
+.btn-process {
+  background-color: #3ebc77;
+}
+
+button {
+  padding: 20px;
+  border-radius: 5px;
+  font-size: 20px;
+  color: #fff;
+  border: none;
+}
+
+.tape {
+  display: flex;
+  flex-direction: column; /* Cambia la dirección de la cinta a vertical */
+  align-items: center;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  padding: 10px;
+  overflow-x: scroll;
+}
+
+.tape-row {
+  display: flex;
+  min-height: 48px;
+}
+
+.tape-cell {
+  padding: 10px;
+  border: 1px solid #000;
+  font-size: 20px;
+  //   margin: 0 5px;
+  width: 40px;
+  position: relative; /* Para el posicionamiento relativo de la flecha */
+}
